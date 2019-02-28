@@ -1,0 +1,9 @@
+CREATE DATABASE blog;
+
+CREATE TABLE blog.postagem(
+	id INT NOT NULL AUTO_INCREMENT,
+	titulo VARCHAR(100),
+	CONTEUDO TEXT,
+	PRIMARY KEY(id)
+
+);
